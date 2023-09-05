@@ -17,7 +17,10 @@ namespace csharp101
             calisan1.CalisanBilgileri();
             Calisan calisan2 = new Calisan("Ahmet", "Çelik", 1002, "Satın Alma");
             calisan2.CalisanBilgileri();
-            
+            Calisan calisan3 = new Calisan();
+            calisan3.Ad = "Burcu";
+            calisan3.Soyad = "Yılmaz";
+            calisan3.CalisanBilgileri();
         }
       
     }
