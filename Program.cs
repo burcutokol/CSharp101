@@ -21,6 +21,20 @@ namespace csharp101
             calisan3.Ad = "Burcu";
             calisan3.Soyad = "Yılmaz";
             calisan3.CalisanBilgileri();
+
+           Ogrenci ogrenci = new Ogrenci();
+            ogrenci.Isim = "Lale";
+            ogrenci.Soyisim = "Kara";
+            ogrenci.Sinif = 4;
+            ogrenci.OgrenciNo = 153;
+
+            ogrenci.SinifAtlat();
+            ogrenci.OgrenciBilgileri();
+
+            Ogrenci ogrenci1 = new Ogrenci("Deniz", "Demir", 45, 1);
+            ogrenci1.OgrenciBilgileri();
+            ogrenci1.SiniDusur();
+
         }
       
     }
